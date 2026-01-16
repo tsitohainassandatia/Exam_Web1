@@ -42,13 +42,14 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: var(--secondary-color);
+    background-color: #011627;
     align-items: center;
     padding-inline-end: 5vw; 
     position: sticky;
     top: 0vh;
     z-index: 9999;
 }
+
 header div{
     display: flex;
     flex-direction: row;
@@ -105,7 +106,7 @@ header hr{
 }
 li h3{
     font-family: sans-serif;
-    font-size: 4vh;
+    font-size: 3vh;
     transition: all 0.3s;
 }
 
@@ -284,4 +285,68 @@ main h4 i{
 #whyUs p{
     text-indent: 3rem;
     font-size: 1.35vw;
+}
+
+#partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    margin: 5vw;
+}
+#partners section{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+#partners img{
+    height: 10vh;
+}
+#partners div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+    align-items: center;
+    color: white;
+    font-family: "Nunito";
+}
+
+footer{
+    background-color: var(--div-color);
+    color: white;
+    font-family: "Nunito";
+    display: flex;
+    flex-direction: column;
+    padding: 4vw;
+}
+footer h3{
+    font-family: "Courgette";
+    color: var(--lightBlue-color);
+    font-size: 4vw;
+}
+footer h4{
+    font-family: "Courgette";
+    font-size: 2vw;
+}
+footer section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+footer p{
+    transition: all 0.2s;
+}
+footer p:hover{
+    color: #00c2cb;
+    text-shadow: 0px 0px 10px #00c2cb, 0px 0px 20px #00c2cb;
+}
+
+
+form{
+    height: 100vh;
 }
