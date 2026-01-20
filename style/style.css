@@ -356,7 +356,7 @@ footer p:hover{
 }
 
 form{
-    margin: 5vh;
+    margin-block: 5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -428,7 +428,7 @@ option{
 }
 form button{
     border: solid var(--lightBlue-color);
-    padding-block: 1vh;
+    padding-block: 2vh;
     padding-inline: 3vh;
     border-radius: 5px;
     background-color: transparent;
@@ -436,6 +436,9 @@ form button{
     font-size: 3.5vh;
     font: bold;
     transition: all 0.3s;
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
 }
 
 form button:hover{
@@ -456,4 +459,11 @@ form textarea{
     width: 70%;
     border-radius: 5px;
     font-size: 3vh;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    padding-inline: 0;
+    gap: 6vw;
 }
